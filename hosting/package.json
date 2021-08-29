@@ -5,7 +5,8 @@
   "author": "machamp0714",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve --open -c webpack.dev.js"
+    "dev": "webpack serve --open -c webpack.dev.js",
+    "build": "webpack -c webpack.prod.js"
   },
   "devDependencies": {
     "@types/react": "^17.0.19",
