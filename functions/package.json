@@ -11,7 +11,8 @@
     "lint": "eslint --fix -c ./.eslintrc.js \"src/**/*.{tsx,ts}\"",
     "lint:check": "eslint -c ./.eslintrc.js \"src/**/*.{tsx,ts}\"",
     "format": "prettier -w \"src/**/*.{tsx,ts}\"",
-    "format:check": "prettier -c \"src/**/*.{tsx,ts}\""
+    "format:check": "prettier -c \"src/**/*.{tsx,ts}\"",
+    "test": "jest"
   },
   "engines": {
     "node": "14"
